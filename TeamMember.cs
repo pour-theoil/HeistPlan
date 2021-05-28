@@ -16,11 +16,10 @@ namespace yourheist
             couragefactor = 0;
         }
 
-        public void Getinfo()
+        public void Getinfo(string memname)
         {
             Console.WriteLine($"Hello fellow heist member, what should we call you?");
-            name = Console.ReadLine();
-
+            name = memname;
         }
 
         public void GetSkill()
